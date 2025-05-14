@@ -1,1 +1,1 @@
-# Ide kerülnek majd a segédfüggvények
+# Itt lehetne segédfüggvényeket definiálni

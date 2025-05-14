@@ -1,1 +1,1 @@
-# Ide kerülnek majd a Pydantic modellek
+# Itt lehetne adatmodelleket definiálni

@@ -1,7 +1,10 @@
-
 from fastapi import FastAPI
-from .routes import router
+from app import routes
 
-app = FastAPI(title="FreeAIWeb API")
+app = FastAPI()
 
-app.include_router(router)
+app.include_router(routes.router)
+
+@app.get("/")
+def root():
+    return {"message": "FreeAIWeb API működik!"}
